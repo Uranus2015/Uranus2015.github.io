@@ -193,7 +193,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"FirstBlog！","path":"2026/07/14/FirstBlog！/"},{"title":"Hello World","path":"1970/01/01/hello-world/"},{"title":"about background and colour","path":"2026/07/14/background-and-colour/"},{"title":"FINALLY!!!","path":"2026/07/14/FINALLY/"},{"title":"呜，无聊哦……","path":"2026/07/17/sad/"},{"title":"无标题","path":"2026/07/18/DreamJuniorHell/"},{"title":"旅游-第4天","path":"2026/07/24/Travel-1/"},{"title":"旅游-第5天","path":"2026/07/25/Travel-2/"},{"title":"旅游-第6天","path":"2026/07/26/Travel-3/"},{"title":"旅游-第unknown天","path":"2026/07/27/Travel-4/"},{"title":"_0729","path":"2026/07/29/idkidk/"},{"title":"我部署的电子萌宠出问题了","path":"2026/07/30/Phi/"},{"title":"不高兴","path":"2026/07/31/unhappy/"},{"title":"无标题(1)","path":"2026/08/03/t08032026/"},{"title":"无标题","path":"2026/08/06/08062026/"},{"title":"Some noise of desperate, sorry for this...","path":"2026/08/17/17-08-2026/"}]`)
+  const posts = JSON.parse(`[{"title":"无标题","path":"2026/07/18/DreamJuniorHell/"},{"title":"Some noise of desperate, sorry for this...","path":"2026/08/17/17-08-2026/"},{"title":"无标题","path":"2026/08/06/08062026/"},{"title":"FINALLY!!!","path":"2026/07/14/FINALLY/"},{"title":"我部署的电子萌宠出问题了","path":"2026/07/30/Phi/"},{"title":"FirstBlog！","path":"2026/07/14/FirstBlog！/"},{"title":"旅游-第4天","path":"2026/07/24/Travel-1/"},{"title":"旅游-第5天","path":"2026/07/25/Travel-2/"},{"title":"旅游-第6天","path":"2026/07/26/Travel-3/"},{"title":"旅游-第unknown天","path":"2026/07/27/Travel-4/"},{"title":"about background and colour","path":"2026/07/14/background-and-colour/"},{"title":"Hello World","path":"1970/01/01/hello-world/"},{"title":"_0729","path":"2026/07/29/idkidk/"},{"title":"呜，无聊哦……","path":"2026/07/17/sad/"},{"title":"无标题(1)","path":"2026/08/03/t08032026/"},{"title":"不高兴","path":"2026/07/31/unhappy/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -237,7 +237,7 @@
     <div class="main-left--info">
       <img src="/imgs/avatar.jpg"" class="main-left--avatar" />
       <div class="main-left--intro">
-        <p class="main-left--name">Uranus2015(0x7df)</p>
+        <p class="main-left--name">0x7df</p>
         <div class="main-left--tags">
           <span class="main-left--tag">idk</span>
           <span class="main-left--tag">idk</span>
@@ -335,7 +335,7 @@
       </p>
       <p class="main-left--subtitle">
         <span>上线时间：</span>
-        <span>NaN天</span>
+        <span>39天</span>
       </p>
       <p class="main-left--subtitle">
         <span>当前版本：</span>
@@ -477,7 +477,7 @@
   }
 
   setOperateItem()
-  const musics = JSON.parse(`[{"name":"Sky High pt. II","artist":"Elektronomia","url":"music/Elektronomia - Sky High pt. II [NCS Release].mp3","cover":"/%20"},{"name":"Willow Tree (feat. Rosendale)","artist":"Rival, Cadmium, Rosendale","url":"music/Rival, Cadmium, Rosendale - Willow Tree (feat. Rosendale) [NCS Release].mp3","cover":"https://img2.baidu.com/it/u=705831265,2862720033&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"}]`)
+  const musics = JSON.parse(`[{"name":"Sky High pt. II","artist":"Elektronomia","url":"music/Elektronomia - Sky High pt. II [NCS Release].mp3","cover":"/imgs/SkyHigh2.jpg"},{"name":"Willow Tree (feat. Rosendale)","artist":"Rival, Cadmium, Rosendale","url":"music/Rival, Cadmium, Rosendale - Willow Tree (feat. Rosendale) [NCS Release].mp3","cover":"/imgs/willowtree.jpg"}]`)
   const ap = new APlayer({
     container: document.querySelector('#aplayer'),
     audio: musics,
